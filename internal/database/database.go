@@ -29,7 +29,7 @@ type service struct {
 }
 
 var (
-	dburl      = os.Getenv("DB_URL")
+	dburl      = os.Getenv("../../data/db.sqlite")
 	dbInstance *service
 )
 
